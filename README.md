@@ -39,6 +39,7 @@
 
 三种方式任选：
 
+0. **从 GitHub 下载（给别人最省事）**：到 [Releases](https://github.com/NormalAorii/dsh-plugin-lol-mayhem/releases) 下载 `dsh-plugin-lol-mayhem-1.0.0.tgz`，然后按下面第 2 条安装；或 `git clone https://github.com/NormalAorii/dsh-plugin-lol-mayhem.git` 后按第 1 条装。
 1. **本地目录安装（推荐，本机已用）**：`plugin_manager` → `install_bundle`，target 传本目录绝对路径（如 `C:\...\dsh-plugin-lol-mayhem`）；DSH 会把它装进 profile 并启用。重载 DSH 后 13 个 `lol_*` 工具即可用。
 2. **离线 tgz（迁移到别的宿主）**：把 `dsh-plugin-lol-mayhem-1.0.0.tgz` 拷过去，`plugin_manager install_bundle` 传 tgz 绝对路径；或在目标 profile 目录 `npm install <tgz>`，并把 `dsh-plugin-lol-mayhem` 加进 profile `package.json` 的 `dsh.profile.bundles`。
 3. **手工**：把本目录放进 profile 的 `node_modules/`，并在 profile `cordis.patch.yml` 加：
