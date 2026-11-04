@@ -2,6 +2,15 @@
   "name": "dsh-plugin-lol-mayhem",
   "version": "1.0.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NormalAorii/dsh-plugin-lol-mayhem.git"
+  },
+  "homepage": "https://github.com/NormalAorii/dsh-plugin-lol-mayhem#readme",
+  "bugs": {
+    "url": "https://github.com/NormalAorii/dsh-plugin-lol-mayhem/issues"
+  },
+  "author": "NormalAorii",
   "description": "《英雄联盟》海克斯大乱斗（ARAM: Mayhem）QQ 机器人助手插件：13 个原生工具，覆盖英雄强度榜、Top6 海克斯强化（含机制说明）、当前版本最强出装、三强化组合、英雄对比、强化百科、整活黑马推荐、模糊搜索、图文卡片与在线刷新。数据源 aramgg 官方客户端公开 API（op.gg 海克斯统计未开放接口）。",
   "type": "module",
   "main": "./index.js",
